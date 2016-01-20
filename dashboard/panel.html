@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="components/paper-input/paper-input.html">
+    <link rel="import" href="components/paper-button/paper-button.html">
+    <link rel="import" href="components/paper-radio-button/paper-radio-button.html">
+    <link rel="import" href="components/paper-radio-group/paper-radio-group.html">
+    <link rel="stylesheet" href="panel.css">
+    <script src="components/jquery/dist/jquery.min.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+<paper-input id="name" label="NAME"></paper-input>
+<paper-input id="months" label="MONTHS"></paper-input>
+<paper-input id="tip" label="TIP AMOUNT"></paper-input>
+
+<paper-radio-group id="type" selected="follow">
+  <paper-radio-button name="follow">Follow</paper-radio-button>
+  <paper-radio-button name="subscription">Subscription</paper-radio-button>
+  <paper-radio-button name="tip">tip</paper-radio-button>
+</paper-radio-group>
+<paper-button raised id="send" class="nodecg-info">Send</paper-button>
+<script src="panel.js"></script>
+</body>
+</html>

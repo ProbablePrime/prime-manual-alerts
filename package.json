@@ -1,0 +1,23 @@
+{
+    "name": "prime-manual-alerts",
+    "version": "1.0.0",
+    "nodecgDependency": "~0.7.0",
+    "homepage": "http://probableprime.co.uk/",
+    "authors": [
+        "ProbablePrime"
+    ],
+    "description": "send manual alerts",
+    "license": "MIT",
+    "nodecg": {
+        "compatibleRange": "~0.7.0",
+        "dashboardPanels": [
+          {
+            "name": "manual-alerts",
+            "title": "Manual Alerts",
+            "width": 3,
+            "headerColor": "#262262",
+            "file": "panel.html"
+          }
+        ]
+    }
+}
