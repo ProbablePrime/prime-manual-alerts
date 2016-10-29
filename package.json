@@ -9,7 +9,7 @@
     "description": "send manual alerts",
     "license": "MIT",
     "nodecg": {
-        "compatibleRange": "~0.7.0",
+        "compatibleRange": "~0.8.0",
         "dashboardPanels": [
           {
             "name": "manual-alerts",
